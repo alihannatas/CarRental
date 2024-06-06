@@ -7,21 +7,21 @@ class Program
 {
     static void Main(string[] args)
     {
-       // CarTest();
-        ColorTest();
-        BrandTest();
+        CarTest();
+        //ColorTest();
+        //BrandTest();
     }
 
     private static void CarTest()
     {
         CarManager carManager = new CarManager(new EfCarDal());
-        var result = carManager.GetAll();
+        var result = carManager.GetCarsDetails();
         foreach (var VARIABLE in result)
         {
-            Console.WriteLine($"{VARIABLE.Id} {VARIABLE.Description} {VARIABLE.DailyPrice} ");
+            Console.WriteLine($"{VARIABLE.CarName} {VARIABLE.BrandName} {VARIABLE.ColorName} {VARIABLE.DailyPrice} ");
         }
     }
-    
+
     private static void ColorTest()
     {
         ColorManager colorManager = new ColorManager(new EfColorDal());
