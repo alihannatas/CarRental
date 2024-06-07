@@ -1,4 +1,6 @@
 using Business.Abstract;
+using Business.Consonants;
+using Core.Utilities.Results.DataResult;
 using Entities.Concrete;
 
 namespace Business.Concrete;
@@ -6,33 +8,38 @@ namespace Business.Concrete;
 public class BrandManager : IBrandService
 {
     private IBranDal _branDal;
+
     public BrandManager(IBranDal branDal)
     {
         _branDal = branDal;
     }
-    public List<Brand> GetAll()
+
+    public IDataResult<List<Brand>> GetAll()
     {
-        return _branDal.GetAll().ToList();
+        return new SuccessDataResult<List<Brand>>(_branDal.GetAll().ToList(), Messages.BrandsListed);
     }
 
-    public Brand GetById(int id)
+    public IDataResult<Brand> GetById(int id)
     {
-        return _branDal.Get(p => p.Id == id);
+        return new SuccessDataResult<Brand>(_branDal.Get(p => p.Id == id), Messages.BrandListedById);
     }
 
-    public void Add(Brand brand)
+    public IResult Add(Brand brand)
     {
         _branDal.Add(brand);
+        return new SuccesResult(Messages.BrandAdded);
     }
-    
 
-    public void Update(Brand brand)
+
+    public IResult Update(Brand brand)
     {
         _branDal.Update(brand);
+        return new SuccesResult(Messages.BrandUpdated);
     }
 
-    public void Delete(Brand brand)
+    public IResult Delete(Brand brand)
     {
         _branDal.Delete(brand);
+        return new SuccesResult(Messages.BrandDeleted);
     }
 }

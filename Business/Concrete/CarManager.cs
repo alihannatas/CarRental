@@ -1,4 +1,6 @@
 using Business.Abstract;
+using Business.Consonants;
+using Core.Utilities.Results.DataResult;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -14,43 +16,46 @@ public class CarManager : ICarService
         _carDal = cardal;
     }
 
-    public List<Car> GetAll()
+    public IDataResult<List<Car>> GetAll()
     {
-        return _carDal.GetAll();
+        return new SuccessDataResult<List<Car>>(_carDal.GetAll(), Messages.CarsListed);
     }
 
-    public Car GetById(int id)
+    public IDataResult<Car> GetById(int id)
     {
-        return _carDal.Get(p => p.Id == id);
+        return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id), Messages.CarListedById);
     }
 
-    public void Add(Car car)
+    public IResult Add(Car car)
     {
         _carDal.Add(car);
+        return new SuccesResult(Messages.CarAdded);
     }
 
-    public void Update(Car car)
+    public IResult Update(Car car)
     {
         _carDal.Update(car);
+        return new SuccesResult(Messages.CarUpdated);
     }
 
-    public void Delete(Car car)
+    public IResult Delete(Car car)
     {
         _carDal.Delete(car);
+        return new SuccesResult(Messages.CarDeleted);
     }
 
-    public List<Car> GetCarsByBrandId(int id)
+    public IDataResult<List<Car>> GetCarsByBrandId(int id)
     {
-        return _carDal.GetAll().Where(p => p.BrandId == id).ToList();
+        return new SuccessDataResult<List<Car>>(_carDal.GetAll().Where(p => p.BrandId == id).ToList(), Messages.CarsListedByBrandId);
     }
 
-    public List<Car> GetCarsByColorId(int id)
+    public IDataResult<List<Car>> GetCarsByColorId(int id)
     {
-        return _carDal.GetAll().Where(p => p.ColorId == id).ToList();
+        return new SuccessDataResult<List<Car>>(_carDal.GetAll().Where(p => p.ColorId == id).ToList(), Messages.CarsListedByColorId);
     }
 
-    public List<CarDetailsDto> GetCarsDetails()
+    public IDataResult<List<CarDetailsDto>> GetCarsDetails()
     {
-        return _carDal.GetCarDetails().ToList();
+        return new SuccessDataResult<List<CarDetailsDto>>(_carDal.GetCarDetails().ToList(), Messages.CarsListedWithDetails);
     }
 }

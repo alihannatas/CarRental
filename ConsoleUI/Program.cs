@@ -7,7 +7,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        CarTest();
+        //CarTest();
         //ColorTest();
         //BrandTest();
     }
@@ -16,8 +16,10 @@ class Program
     {
         CarManager carManager = new CarManager(new EfCarDal());
         var result = carManager.GetCarsDetails();
-        foreach (var VARIABLE in result)
+        Console.WriteLine(result.Message);
+        foreach (var VARIABLE in result.Data)
         {
+            
             Console.WriteLine($"{VARIABLE.CarName} {VARIABLE.BrandName} {VARIABLE.ColorName} {VARIABLE.DailyPrice} ");
         }
     }
@@ -26,7 +28,8 @@ class Program
     {
         ColorManager colorManager = new ColorManager(new EfColorDal());
         var result = colorManager.GetAll();
-        foreach (var VARIABLE in result)
+        Console.WriteLine(result.Message);
+        foreach (var VARIABLE in result.Data)
         {
             Console.WriteLine($"{VARIABLE.Id} {VARIABLE.Name} ");
         }
@@ -36,7 +39,8 @@ class Program
     {
         BrandManager brandManager = new BrandManager(new EfBrandDal());
         var result = brandManager.GetAll();
-        foreach (var VARIABLE in result)
+        Console.WriteLine(result.Message);
+        foreach (var VARIABLE in result.Data)
         {
             Console.WriteLine($"{VARIABLE.Id} {VARIABLE.Name} ");
         }

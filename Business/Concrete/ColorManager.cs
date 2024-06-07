@@ -1,4 +1,6 @@
 using Business.Abstract;
+using Business.Consonants;
+using Core.Utilities.Results.DataResult;
 using Entities.Concrete;
 
 namespace Business.Concrete;
@@ -12,29 +14,32 @@ public class ColorManager : IColorService
         _colorDal = colorDal;
     }
 
-    public List<Color> GetAll()
+    public IDataResult<List<Color>> GetAll()
     {
-        return _colorDal.GetAll().ToList();
+        return new SuccessDataResult<List<Color>>(_colorDal.GetAll().ToList(), Messages.ColorsListed);
     }
 
-    public Color GetById(int id)
+    public IDataResult<Color> GetById(int id)
     {
-        return _colorDal.Get(p => p.Id == id);
+        return new SuccessDataResult<Color>(_colorDal.Get(p => p.Id == id), Messages.ColorListedById);
     }
 
-    public void Add(Color color)
+    public IResult Add(Color color)
     {
         _colorDal.Add(color);
+        return new SuccesResult(Messages.ColorAdded);
     }
 
 
-    public void Update(Color color)
+    public IResult Update(Color color)
     {
         _colorDal.Update(color);
+        return new SuccesResult(Messages.ColorUpdated);
     }
 
-    public void Delete(Color color)
+    public IResult Delete(Color color)
     {
         _colorDal.Delete(color);
+        return new SuccesResult(Messages.ColorDeleted);
     }
 }
