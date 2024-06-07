@@ -28,4 +28,10 @@ public static class Messages
     public static string BrandsListed = "Brands successfully listed.";
     public static string BrandListedById = "Brand successfully listed by id.";
     //Error Messages
+    
+    //Rental 
+    public static string RentalAlreadyRented = "Car already rented.";
+    public static string RentalRented = "Car successfully rented.";
+    public static string RentalUpdateError = "Car rental date update failed.";
+    public static string RentalUpdateSuccesfully = "Car rental date update successfully.";
 }
