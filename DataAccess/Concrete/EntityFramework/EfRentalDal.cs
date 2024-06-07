@@ -28,6 +28,7 @@ public class EfRentalDal : EfEntityRepositoryBase<Rental, CarRentalContext>, IRe
                     CustomerEmail = user.Email, RentDate = rental.RentDate, ReturnDate = rental.ReturnDate
                 };
             return result.ToList();
+            
         }
      
     }
