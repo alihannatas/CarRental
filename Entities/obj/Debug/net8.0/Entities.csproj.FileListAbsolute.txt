@@ -1,0 +1,16 @@
+/Users/alihan/RiderProjects/CarRental/Entities/bin/Debug/net8.0/Entities.deps.json
+/Users/alihan/RiderProjects/CarRental/Entities/bin/Debug/net8.0/Entities.dll
+/Users/alihan/RiderProjects/CarRental/Entities/bin/Debug/net8.0/Entities.pdb
+/Users/alihan/RiderProjects/CarRental/Entities/bin/Debug/net8.0/Core.dll
+/Users/alihan/RiderProjects/CarRental/Entities/bin/Debug/net8.0/Core.pdb
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.csproj.AssemblyReference.cache
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.AssemblyInfoInputs.cache
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.AssemblyInfo.cs
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.csproj.CoreCompileInputs.cache
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.sourcelink.json
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.csproj.Up2Date
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.dll
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/refint/Entities.dll
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/Entities.pdb
+/Users/alihan/RiderProjects/CarRental/Entities/obj/Debug/net8.0/ref/Entities.dll

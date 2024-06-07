@@ -1,0 +1,13 @@
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.AssemblyInfoInputs.cache
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.AssemblyInfo.cs
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.csproj.CoreCompileInputs.cache
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.sourcelink.json
+/Users/alihan/RiderProjects/CarRental/Core/bin/Debug/net8.0/Core.deps.json
+/Users/alihan/RiderProjects/CarRental/Core/bin/Debug/net8.0/Core.dll
+/Users/alihan/RiderProjects/CarRental/Core/bin/Debug/net8.0/Core.pdb
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.csproj.AssemblyReference.cache
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.dll
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/refint/Core.dll
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/Core.pdb
+/Users/alihan/RiderProjects/CarRental/Core/obj/Debug/net8.0/ref/Core.dll
