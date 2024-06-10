@@ -262,3 +262,4 @@
 /Users/alihan/RiderProjects/CarRental/WebAPI/bin/Debug/net8.0/Autofac.Extensions.DependencyInjection.dll
 /Users/alihan/RiderProjects/CarRental/WebAPI/bin/Debug/net8.0/Autofac.Extras.DynamicProxy.dll
 /Users/alihan/RiderProjects/CarRental/WebAPI/bin/Debug/net8.0/Castle.Core.dll
+/Users/alihan/RiderProjects/CarRental/WebAPI/bin/Debug/net8.0/FluentValidation.dll

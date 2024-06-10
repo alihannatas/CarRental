@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "hvFBq3viLE21Ic/M8eNukF8M7Thm8vKixj5fzNQTXpHT2ioGD/7c4/IjM7ORAgof7NDtJobtSI6h0hYtnXO8vQ==",
+  "dgSpecHash": "ZcsgA+uGtH/rX+YL7bDGUz8GhXmsM4VZbzAN2/KQ6tTo6Y7xoSSv9Q966WpHIZozrMhbbJJVHJZhnes0Va7YhA==",
   "success": true,
   "projectFilePath": "/Users/alihan/RiderProjects/CarRental/Core/Core.csproj",
   "expectedPackageFiles": [
+    "/Users/alihan/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.entityframeworkcore/8.0.6/microsoft.entityframeworkcore.8.0.6.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.6/microsoft.entityframeworkcore.abstractions.8.0.6.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.6/microsoft.entityframeworkcore.analyzers.8.0.6.nupkg.sha512",
@@ -14,7 +16,8 @@
     "/Users/alihan/.nuget/packages/microsoft.extensions.logging/8.0.0/microsoft.extensions.logging.8.0.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.0/microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.extensions.options/8.0.0/microsoft.extensions.options.8.0.0.nupkg.sha512",
-    "/Users/alihan/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+    "/Users/alihan/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/system.diagnostics.eventlog/6.0.0/system.diagnostics.eventlog.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

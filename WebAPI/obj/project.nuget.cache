@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "88iMtTzmrQJVvUhEqIdDZm8QV/usrmfYQQFvMcjF4dHKZSKa+34I70BEVrmsfV7EQKFwv6YVr/g8cX5exbUuyw==",
+  "dgSpecHash": "vKfQr7tIq/g5qT0bUoeA+hap243LklAYOS4yoTOscgioulBQ+7xazTMKQwEgyC0orInpo2uMqScxJ4hI5XhZlA==",
   "success": true,
   "projectFilePath": "/Users/alihan/RiderProjects/CarRental/WebAPI/WebAPI.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/alihan/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/alihan/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/humanizer/2.14.1/humanizer.2.14.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/humanizer.core.af/2.14.1/humanizer.core.af.2.14.1.nupkg.sha512",

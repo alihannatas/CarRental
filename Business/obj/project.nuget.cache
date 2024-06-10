@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sFAUDSueME5qnnwbCJz9RW4sWcN24vl07PUU7FrmYAlf5k2B70RBWBOu0XpjjgQMCBywUY6FEpIdrzssDwn90w==",
+  "dgSpecHash": "FQbG2KxHlEOFxRfXkmpH5k/yegHVZb/xs24lmO34ZHxMc1JvEUsO7LKnavMZ7kq4lR7GhGr18Y9EnLuVmuQs0Q==",
   "success": true,
   "projectFilePath": "/Users/alihan/RiderProjects/CarRental/Business/Business.csproj",
   "expectedPackageFiles": [
@@ -10,6 +10,7 @@
     "/Users/alihan/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/alihan/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.data.sqlclient/5.1.5/microsoft.data.sqlclient.5.1.5.nupkg.sha512",

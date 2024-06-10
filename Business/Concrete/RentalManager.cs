@@ -1,5 +1,7 @@
 using Business.Abstract;
 using Business.Consonants;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using Core.Utilities.Results.DataResult;
 using DataAccess.Abstract;
@@ -26,7 +28,8 @@ public class RentalManager : IRentalService
     {
         return new SuccessDataResult<Rental>(_rentalDal.Get(p => p.Id == id));
     }
-
+    
+    [ValidationAspect(typeof(RentalValidator))]
     public IResult Add(Rental rental)
     {
         var result = CheckReturnDateIsEmpty(rental.CarId);
@@ -37,13 +40,15 @@ public class RentalManager : IRentalService
         _rentalDal.Add(rental);
         return new SuccesResult(Messages.RentalRented);
     }
-
+    
+    [ValidationAspect(typeof(RentalValidator))]
     public IResult Update(Rental rental)
     {
         _rentalDal.Update(rental);
         return new SuccesResult();
     }
-
+    
+    [ValidationAspect(typeof(RentalValidator))]
     public IResult Delete(Rental rental)
     {
         _rentalDal.Delete(rental);
@@ -60,7 +65,7 @@ public class RentalManager : IRentalService
 
         return new ErrorResult(Messages.RentalAlreadyRented);
     }
-
+    
     public IResult UpdateReturnDate(int carId)
     {
         var updatedRental = _rentalDal.GetAll().LastOrDefault(p => p.CarId == carId);

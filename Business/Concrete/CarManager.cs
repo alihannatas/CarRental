@@ -1,5 +1,7 @@
 using Business.Abstract;
 using Business.Consonants;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results.DataResult;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -25,19 +27,22 @@ public class CarManager : ICarService
     {
         return new SuccessDataResult<Car>(_carDal.Get(p => p.Id == id), Messages.CarListedById);
     }
-
+    
+    [ValidationAspect(typeof(CarValidator))]
     public IResult Add(Car car)
     {
         _carDal.Add(car);
         return new SuccesResult(Messages.CarAdded);
     }
-
+    
+    [ValidationAspect(typeof(CarValidator))]
     public IResult Update(Car car)
     {
         _carDal.Update(car);
         return new SuccesResult(Messages.CarUpdated);
     }
-
+    
+    [ValidationAspect(typeof(CarValidator))]
     public IResult Delete(Car car)
     {
         _carDal.Delete(car);

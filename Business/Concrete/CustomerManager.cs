@@ -1,4 +1,6 @@
 using Business.Abstract;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results.DataResult;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -22,19 +24,22 @@ public class CustomerManager : ICustomerService
     {
         return new SuccessDataResult<Customer>(_customerDal.Get(p => p.Id == id));
     }
-
+    
+    [ValidationAspect(typeof(CustomerValidator))]
     public IResult Add(Customer customer)
     {
         _customerDal.Add(customer);
         return new SuccesResult();
     }
-
+    
+    [ValidationAspect(typeof(CustomerValidator))]
     public IResult Update(Customer customer)
     {
         _customerDal.Update(customer);
         return new SuccesResult();
     }
-
+    
+    [ValidationAspect(typeof(CustomerValidator))]
     public IResult Delete(Customer customer)
     {
         _customerDal.Delete(customer);

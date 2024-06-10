@@ -1,5 +1,7 @@
 using Business.Abstract;
 using Business.Consonants;
+using Business.ValidationRules;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results.DataResult;
 using Entities.Concrete;
 
@@ -24,19 +26,21 @@ public class ColorManager : IColorService
         return new SuccessDataResult<Color>(_colorDal.Get(p => p.Id == id), Messages.ColorListedById);
     }
 
+    [ValidationAspect(typeof(ColorValidator))]
     public IResult Add(Color color)
     {
         _colorDal.Add(color);
         return new SuccesResult(Messages.ColorAdded);
     }
 
-
+    [ValidationAspect(typeof(ColorValidator))]
     public IResult Update(Color color)
     {
         _colorDal.Update(color);
         return new SuccesResult(Messages.ColorUpdated);
     }
 
+    [ValidationAspect(typeof(ColorValidator))]
     public IResult Delete(Color color)
     {
         _colorDal.Delete(color);
