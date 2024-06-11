@@ -34,4 +34,7 @@ public static class Messages
     public static string RentalRented = "Car successfully rented.";
     public static string RentalUpdateError = "Car rental date update failed.";
     public static string RentalUpdateSuccesfully = "Car rental date update successfully.";
+    
+    //Car Image
+    public static string MaximumNumberOfPhotosReached = "Maximum number of photos reached";
 }

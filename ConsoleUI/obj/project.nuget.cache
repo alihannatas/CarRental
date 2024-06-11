@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dsm5CTNXucWytwLO5oq2Jap1Elx2tokdAuLSCECOyyRudiSINmXzFn9+onNJuA9dkGLcFLreLlK/Qin6wiZ9ew==",
+  "dgSpecHash": "bqCqMWfy551jp8y2Ro1tnetqUDWCkXwlghRwwDuxpdMQYKrNAHSjlttBxRhlsw1SkCKx2SRHTRD6kRvyuMH4QQ==",
   "success": true,
   "projectFilePath": "/Users/alihan/RiderProjects/CarRental/ConsoleUI/ConsoleUI.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,8 @@
     "/Users/alihan/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/alihan/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.csharp/4.5.0/microsoft.csharp.4.5.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.data.sqlclient/5.1.5/microsoft.data.sqlclient.5.1.5.nupkg.sha512",

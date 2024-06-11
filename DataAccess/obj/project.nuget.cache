@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S3BMbV6Zc412R6vlymN9kMQNzMcUU9wq94kTfnRrH3PgmUgytyPCz0I1LLEXR4fQXmjTu1pxJGoYxIVIA2ZTtg==",
+  "dgSpecHash": "87Ujdcu2WYw9KBI86Es9tq5Q0qG0UAceArpkOJfilvGX6cgzSZ9Nux6pUfZ2jXE/BgZOlHh+ATehyfm3Bd77cQ==",
   "success": true,
   "projectFilePath": "/Users/alihan/RiderProjects/CarRental/DataAccess/DataAccess.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,8 @@
     "/Users/alihan/.nuget/packages/castle.core/5.1.1/castle.core.5.1.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/fluentvalidation/11.9.1/fluentvalidation.11.9.1.nupkg.sha512",
     "/Users/alihan/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/microsoft.aspnetcore.http.abstractions/2.2.0/microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "/Users/alihan/.nuget/packages/microsoft.aspnetcore.http.features/2.2.0/microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/Users/alihan/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",

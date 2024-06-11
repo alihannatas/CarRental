@@ -16,6 +16,7 @@
       <Folder Include="Areas\CustomerController\Data\" />
       <Folder Include="Areas\CustomerController\Models\" />
       <Folder Include="Areas\CustomerController\Views\" />
+      <Folder Include="Images\" />
     </ItemGroup>
 
     <ItemGroup>
